@@ -2,7 +2,7 @@
 
 int extLED = 7;
 int onboardLED = 13;
-
+  
 void setup()  {
 pinMode(extLED, OUTPUT);                // pin to drive gate on the MOSFET
 pinMode(onboardLED, OUTPUT);            // on board LED pin for reference            
